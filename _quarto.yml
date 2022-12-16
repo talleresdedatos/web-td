@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  # title: "TD"
+  search: false
+  navbar:
+    logo: logo2.png
+    right:
+      # - href: index.qmd
+      #   text: Inicio
+      #   icon: house
+      #   aria-label: inicio
+      - text: Recursos
+        icon: file-earmark
+        aria-label: recursos
+        menu: 
+          - text: "Blog"
+            href: "/"
+            icon: list-stars
+          - text: "Tutoriales"
+            href: "/"
+            icon: code-square
+      - href: "/"
+        text: Contacto
+        icon: person-vcard
+        aria-label: contacto
+      - href: "/"
+        icon: github
+        aria-label: contacto
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+
+
